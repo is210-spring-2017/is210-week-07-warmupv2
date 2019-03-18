@@ -48,12 +48,12 @@ Use ``raw_input`` to collect user input on the command line.
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a file named ``task_01.py``
+1.  Open a new Jupyter notebook
 
 2.  Use ``raw_input()`` to ask the user a question (any question!) and save
     the result to a variable named ``MY_ANSWER``
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
@@ -76,13 +76,13 @@ input.
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a new file named ``task_02.py``
+1.  Keep using the same notebook
 
-2.  In ``task_02.py`` use ``raw_input()`` and a type conversion function
+2.  One a new line, use ``raw_input()`` and a type conversion function
     to ask the user a question and store the result *as an integer* into a
     new variable named ``MY_INTEGER``
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
@@ -93,80 +93,8 @@ Examples
     >>> type(MY_INTEGER)
     <type 'int'>
 
+
 Task 03
--------
-
-Create a complex test using logical operators.
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Open ``task_03.py``
-
-2.  Create a multi-part statement that uses *logical operators* to combine
-    several comparisons:
-
-    1.  That ``LOOKS_NICE`` is ``True`` and that ``EXPENSE`` is less than or
-        equal to ``MAX_EXPENSE``
-
-    2.  OR, if **both** of the above conditions are not met, that
-        ``GET_OUT_ALIVE`` is ``False``
-
-3.  Save the result into a variable named ``SACRIFICE``, eg
-
-    .. code:: python
-
-        SACRIFICE =  # your logical test goes here
-
-.. hint::
-
-    Review how to properly group statements with logical operators and how
-    boolean values should be tested or negated before attempting this task. The
-    style video will be of particular help.
-
-.. note::
-
-    Automated testing for this task will not be able to tell you whether you
-    accomplished the overall objective of proper style or grouping as it only
-    tests the resulting value of ``SACRIFICE``. Don't assume that at PASSed
-    test means you're guaranteed credit.
-
-Examples
-^^^^^^^^
-
-.. code:: pycon
-
-    >>> print SACRIFICE
-    True
-
-Task 04
--------
-
-Use a single, simple branching statement to alter behavior based on user
-input.
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Open ``task_04.py`` which contains some existing code.
-
-2.  Use ``len()`` to measure the length of the input string and save the
-    value to a variable at the spot marked in the comments.
-
-3.  Create a conditional expression that changes the value of ``LONGSTR`` to
-    ``'long'`` if the length measured in step #2 is greater than ``MAX_LENGTH``
-
-Examples
-^^^^^^^^
-
-.. code:: pycon
-    
-    Tell me a story! A story.
-    That certainly was a short story!
-    >>> print LONGSTR
-    'short'
-
-Task 05
 -------
 
 Imagine that you were taking an incredibly difficult programming course. The
@@ -180,7 +108,7 @@ Create a simple branching statement to achieve this objective.
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a new file called ``task_05.py``
+1.  Work on a new line on your existing notebook
 
 2.  Using a combination of ``raw_input()``, ``if``, ``elif``, and ``else``,
     write a program that asks the user their blood pressure. Compare the blood
@@ -205,7 +133,7 @@ Specifications
 
     Don't forget that the input of ``raw_input`` is a string!
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: console
@@ -214,53 +142,10 @@ Examples
     What is your blood pressure? 120
     Your status is currently: Warning!
 
-Executing Tests
-===============
-
-Code must be functional and pass tests before it will be eligible for credit.
-
-Linting
--------
-
-Lint tests check your code for syntactic or stylistic errors To execute lint
-tests against a specific file, simply open a terminal in the same directory as
-your code repository and type:
-
-.. code:: console
-
-    $ pylint filename.py
-
-Where ``filename.py`` is the name of the file you wish to lint test.
-
-Unit Tests
-----------
-
-Unit tests check that your code performs the tested objectives. Unit tests
-may be executed individually by opening a terminal in the same directory as
-your code repository and typing:
-
-.. code:: console
-
-    $ nosetests tests/name_of_test.py
-
-Where ``name_of_test.py`` is the name of the testfile found in the ``tests``
-directory of your source code.
-
-Running All Tests
------------------
-
-All tests may be run simultaneously by executing the ``runtests.sh`` script
-from the root of your assignment repository. To execute all tests, open a
-terminal in the same directory as your code repository and type:
-
-.. code:: console
-
-    $ ./runtests.sh
-
 Submission
 ==========
 
-Code should be submitted via Blackboard as a compressed folder with python files.
+Code should be submitted via Blackboard as a Jupyter notebook file.
 
 .. _GitHub: https://github.com/
 .. _Python String Documentation: https://docs.python.org/2/library/stdtypes.html
