@@ -1,5 +1,5 @@
 ####################
-IS 210 Assignment 08
+IS 210 Assignment 07
 ####################
 ************
 Warmup Tasks
@@ -43,60 +43,6 @@ Warmup Tasks
 Task 01
 -------
 
-Use ``raw_input`` to collect user input on the command line.
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Open a new Jupyter notebook
-
-2.  Use ``raw_input()`` to ask the user a question (any question!) and save
-    the result to a variable named ``MY_ANSWER``
-
-Expected Output
-^^^^^^^^
-
-.. code:: pycon
-
-    What is your name? Arthur
-    >>> print MY_ANSWER
-    Arthur
-
-.. note::
-
-    Examples given here are just examples. They are *not* guaranteed to be the
-    exact values encountered in your code.
-
-Task 02
--------
-
-Extend our ``raw_input()`` usage and convert the data type of collected user
-input.
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Keep using the same notebook
-
-2.  One a new line, use ``raw_input()`` and a type conversion function
-    to ask the user a question and store the result *as an integer* into a
-    new variable named ``MY_INTEGER``
-
-Expected Output
-^^^^^^^^
-
-.. code:: pycon
-
-    What is the answer to the life the universe and everything? 42
-    >>> print MY_INTEGER
-    42
-    >>> type(MY_INTEGER)
-    <type 'int'>
-
-
-Task 03
--------
-
 Imagine that you were taking an incredibly difficult programming course. The
 stress of the course is starting to get to you so your doctor tells you to
 start regularly checking your systolic blood pressure. Unfortunately, the
@@ -110,7 +56,7 @@ Specifications
 
 1.  Work on a new line on your existing notebook
 
-2.  Using a combination of ``raw_input()``, ``if``, ``elif``, and ``else``,
+2.  Using a combination of ``input()``, ``if``, ``elif``, and ``else``,
     write a program that asks the user their blood pressure. Compare the blood
     pressure against the following chart and save the Status to a variable
     named ``BP_STATUS``. At the end of the program, print a nice sentence with
@@ -131,7 +77,7 @@ Specifications
 
 .. hint::
 
-    Don't forget that the input of ``raw_input`` is a string!
+    Don't forget that the input of ``input`` is a string!
 
 Expected Output
 ^^^^^^^^
